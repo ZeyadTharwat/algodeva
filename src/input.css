@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: SF Pro Display;
+      font-weight: 700;
+      font-style:bold;
+      src: url(fonts/SFPRODISPLAYBOLD.OTF) format("otf");
+    }
+    @font-face {
+        font-family: SF Pro Display;
+        font-weight: 500;
+        font-style:medium;
+        src: url(fonts/SFPRODISPLAYMEDIUM.OTF) format("otf");
+      }
+  
+  }
+
+  
+body {
+  font-weight: 500;
+}
+
+.features-content {
+  grid-template-columns:repeat(2,1fr);
+  justify-content: start;
+  display: grid;
+}
+
+
+
+hr {
+  height: 2px;
+}
+
+.icn {
+  width: 30px;
+  height: 30px;
+  color:#7F93B2;
+}
+
+@media screen and (min-width:425px) and (max-width:650px){
+.hero-paragraph {
+max-width: 66% !important;
+}
+}
