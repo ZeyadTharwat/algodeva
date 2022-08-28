@@ -6,6 +6,7 @@ module.exports = {
       '80': '80%',
       '75': '75%',
       '60': '60%',
+      '70': '70%',
       '100': '100%',
     },
     container: {
@@ -20,6 +21,7 @@ module.exports = {
     extend: {
       fontSize: {
         '32px': '2rem',
+        '28px': '1.75'
 
     },
 
@@ -29,6 +31,7 @@ module.exports = {
         '10px': '10px',
         '25px':'25px',
         '33px':'33px',
+        '50px':'50px',
       },
 
       fontFamily: {

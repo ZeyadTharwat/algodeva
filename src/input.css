@@ -33,6 +33,7 @@ body {
 
 hr {
   height: 2px;
+  color: #7F93B2;
 }
 
 .icn {
@@ -46,3 +47,11 @@ hr {
 max-width: 66% !important;
 }
 }
+
+@media screen and (min-width:425px) and (max-width:740px){
+  .features-text {
+  max-width: 65% !important;
+  }
+  }
+  
+  
