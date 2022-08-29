@@ -54,4 +54,27 @@ max-width: 66% !important;
   }
   }
   
+  @media screen and (min-width:500px) and (max-width:639px){
+    .cards-responsive {
+padding-left: 80px; 
+padding-right: 80px;  
+ }
+    }
+
+    @media screen and (min-width:424px) and (max-width:500px){
+      .cards-responsive {
+        padding-left:50px;
+        padding-right:50px;
+   }
+      }
   
+  
+  
+.footer-leading li a {
+line-height: 1;
+}
+
+.footer-icon {
+  height:68px;
+  width:198px;
+}
